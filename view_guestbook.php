@@ -7,7 +7,11 @@
 </head>
 <body>
 <h1>PHP View Entrybook</h1>
-
+<!-- 		# server:localhost
+		# username:root
+		# password:NUL
+		# Database:web_nom
+		# table:entry -->
 <form method="POST" action="view_guestbook.php">
 Email:
 <input type="text" size="30" maxlength="30" name="email_input"><br><br>
