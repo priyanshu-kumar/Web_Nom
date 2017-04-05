@@ -4,17 +4,16 @@
 	
 </head>
 <body>
-<?php
-	
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['date_of_birth']))
-{
-	
-}
-?>
+
 	<h1>PHP Register Entrybook</h1>
 	<a href="guestbook.php" >Home</a>
 	<a href="view_guestbook.php">View Entrybook</a><br><br>
 	<form method="post" action="update_guestbook.php">
+<!-- 		# server:localhost
+		# username:root
+		# password:NUL
+		# Database:web_nom
+		# table:entry -->
 	<table>
 		<tr>
 		<td>Name: </td>
