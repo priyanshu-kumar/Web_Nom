@@ -4,6 +4,11 @@
 	<title></title>
 </head>
 <body>
+	<!-- 		# server:localhost
+		# username:root
+		# password:NUL
+		# Database:web_nom
+		# table:entry -->
 <h1>PHP Entrybook</h1>
 <?php
 $conn_error = 'could not connect'; 
